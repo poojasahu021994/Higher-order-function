@@ -1,6 +1,6 @@
 my_tuple=(70,75,60,59,40,60,80)
-def grater_60(x):
+def grater (x):
     if x>60:
         return x
-x=list(filter(grater_60,my_tuple))
+x=list(filter(grater,my_tuple))
 print(x)        

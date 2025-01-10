@@ -9,3 +9,6 @@ def dec (x):
     return x*2
 x=map(dec, my_list)
 print(tuple(x))
+
+
+
